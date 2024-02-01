@@ -21,3 +21,11 @@ let somenumber = 33
 let stringNumber = String(somenumber);
 console.log(stringNumber);
 console.log( typeof stringNumber);
+
+
+const originalPrice = 100; // Replace 100 with your actual original price
+const discountPercentage = 30;
+const discountAmount = (discountPercentage / 100) * originalPrice;
+const discountedPrice = originalPrice - discountAmount;
+
+console.log(discountedPrice);
